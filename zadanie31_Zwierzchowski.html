@@ -1,0 +1,24 @@
+<html>
+<head>
+<script type="text/javascript">
+var spodnie = {
+  wysokosc: '100cm',
+  szerokosc: '60cm',
+  z_czego_wykonane: 'bawelna',
+  pokaz: function () {
+    document.write(this.wysokosc + 'x' + this.szerokosc + ' ' + this.z_czego_wykonane);
+  }
+};
+spodnie.pokaz();
+spodnie.rodzaj = 'dresy';
+spodnie.wypisz = function() {
+  alert('Rodzaj: ' + this.rodzaj);
+};
+spodnie.wypisz();
+</script>
+</head>
+<body>
+<br>
+Programowanie obiektowe- Oliwier Zwierzchowski 3Gg2
+</body>
+</html>
